@@ -123,8 +123,9 @@ h4 {
 }
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-  color: #877a45 !important;
+  color: #000 !important;
   background-color: #fff !important;
+  font-weight: bold;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent;
@@ -173,6 +174,9 @@ footer .glyphicon {
   .btn-lg {
     width: 100%;
     margin-bottom: 35px;
+  }
+  .col-xs-6 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px) {
